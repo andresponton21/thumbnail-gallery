@@ -3,6 +3,7 @@
  display: grid;
 
  grid-template-columns: repeat(3, 1fr);
+ grid-gap:1em;
 
  max-width: 40em;
 
@@ -14,4 +15,7 @@
 
  grid-column: span 3;
 
+}
+#thumb {
+    cursor: pointer;
 }
